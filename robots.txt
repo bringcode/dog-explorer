@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://dog-explorer.netlify.app/sitemap.xml
