@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="이 사이트는 믹스견들이 각 강아지 종들 중 어떤 종들과 어느 정도로 섞여있는지 보여주는 서비스를 제공합니다.">
+    <meta property="og:url" content="https://dog-explorer.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="믹스견 견종 탐색기" />
+    <meta property="og:description" content="이 사이트는 믹스견들이 각 강아지 종들 중 어떤 종들과 어느 정도로 섞여있는지 보여주는 서비스를 제공합니다." />
+    <meta property="og:image" content="./img/dog-mark.jpg" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://dog-explorer.netlify.app/">
     <link rel="stylesheet" href="style.css?ver=0">
     <title>믹스견 견종 탐색기</title>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -20,9 +29,7 @@
         <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
-                <img class="upload_image"
-                    src="./img/upload.png"
-                    alt="업로드 사진">
+                <img class="upload_image" src="./img/upload.png" alt="업로드 사진">
                 <h3>당신의 강아지 사진을 업로드 해주세요</h3>
             </div>
         </div>
@@ -114,7 +121,7 @@
             console.log(prediction);
             for (let i = 0; i < 5; i++) {
                 const classPrediction =
-                    prediction[i].className + ":   " + prediction[i].probability.toFixed(2)*100 + "%";
+                    prediction[i].className + ":   " + prediction[i].probability.toFixed(2) * 100 + "%";
                 labelContainer.childNodes[i].innerHTML = classPrediction;
             }
         }
@@ -124,4 +131,5 @@
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
 </html>
