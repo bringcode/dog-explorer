@@ -58,6 +58,7 @@ body {
   height: 400px;
   border: 3px dashed gray;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .image-dropping,
@@ -147,4 +148,14 @@ body{
 
 .at-share-btn-elements{
   padding-top: 10px;
+}
+
+.advertise{
+  width: 594px;
+  text-align: center;
+}
+
+.advertisement{
+  width: 594px;
+  margin: 0 auto;
 }
