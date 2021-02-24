@@ -58,7 +58,7 @@ body {
   height: 400px;
   border: 3px dashed gray;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .image-dropping,
@@ -151,11 +151,11 @@ body{
 }
 
 .advertise{
-  width: 594px;
+  width: 100%;
   text-align: center;
 }
 
 .advertisement{
-  width: 594px;
+  width: 100%;
   margin: 0 auto;
 }
